@@ -1,0 +1,15 @@
+# Configurações do site
+title: "Meu Blog"
+description: "Blog usando o Time Machine"
+url: "https://audienciaon.github.io/test"  # Substitua com a URL do seu blog
+baseurl: "/test"  # Use "/test" se o seu site estiver na pasta blog, caso contrário, deixe vazio
+
+# Tema
+theme: jekyll-theme-time-machine
+
+# Permalink
+permalink: /:year/:month/:day/:title/
+
+# Plugins (se quiser adicionar o feed RSS, por exemplo)
+plugins:
+  - jekyll-feed
